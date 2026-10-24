@@ -1,0 +1,21 @@
+{
+  "_readme": "Local services that /status health-checks. Replace the examples with your own; delete any you don't run. Health URLs must be on localhost.",
+  "services": [
+    {
+      "id": "ollama",
+      "name": "Ollama (local models)",
+      "port": 11434,
+      "tier": "on-demand",
+      "health": "http://127.0.0.1:11434/api/version",
+      "start": "ollama serve"
+    },
+    {
+      "id": "my-app",
+      "name": "Example app dev server",
+      "port": 3000,
+      "tier": "always-on",
+      "health": "http://127.0.0.1:3000/",
+      "start": "npm run dev"
+    }
+  ]
+}

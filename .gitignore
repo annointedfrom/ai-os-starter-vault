@@ -1,0 +1,19 @@
+# Obsidian per-device state
+.obsidian/workspace*.json
+.obsidian/cache
+.trash/
+
+# Secrets never belong in the vault
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.json
+credentials.json
+auth.json
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+.vscode/
