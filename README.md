@@ -20,7 +20,7 @@ into a co-worker who knows your projects. Open the folder, fill in one file, run
 1. Download or clone this repository:
 
    ```bash
-   git clone https://github.com/<you>/ai-os-starter-vault.git my-vault
+   git clone https://github.com/annointedfrom/ai-os-starter-vault.git my-vault
    ```
 
 2. Open `my-vault` as a vault in [Obsidian](https://obsidian.md).
